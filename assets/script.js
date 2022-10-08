@@ -1,3 +1,5 @@
+// Theres multiple options to create a password generator.
+
 var charString = [
   "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   "abcdefghijklmnopqrstuvwxyz",
@@ -11,7 +13,7 @@ var passwordText = document.querySelector("#password");
 
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+//
 
 function writePassword() {
   passwordText.value = generatePassword();
